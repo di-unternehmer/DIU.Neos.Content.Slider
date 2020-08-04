@@ -1,5 +1,5 @@
 
-# DIU Neos Conten Slider
+# DIU Neos Content Slider
 
 This package adds slider functionality to your site. We use Swiper for this package.
                                                      
