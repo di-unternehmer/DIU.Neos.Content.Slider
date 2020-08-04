@@ -22,6 +22,8 @@ To restrict the content elements which should be slideable you should overwrite 
 
 ```
 
+## Required resources
+
 This package autoincludes the required js and css into Neos.Neos:Page but you can prevent them to load und include it into your frontend build process by overwriting the fusion code in your site package.
 
 ```
