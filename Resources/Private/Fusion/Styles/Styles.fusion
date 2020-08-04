@@ -1,5 +1,5 @@
 prototype(DIU.Neos.Content.Slider:Styles) < prototype(Neos.Fusion:Array) {
-    timelineStyles = Neos.Fusion:Tag {
+    mainStyles = Neos.Fusion:Tag {
         tagName = 'link'
         attributes {
             rel = 'stylesheet'
