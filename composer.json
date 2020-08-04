@@ -1,0 +1,14 @@
+{
+    "description": "Make your timeline",
+    "type": "neos-plugin",
+    "name": "diu/content-slider",
+    "require": {
+        "neos/flow": "*",
+        "neos/neos": "*"
+    },
+    "extra": {
+        "neos": {
+            "package-key": "DIU.Neos.Content.Slider"
+        }
+    }
+}

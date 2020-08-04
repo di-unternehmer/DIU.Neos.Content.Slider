@@ -1,0 +1,11 @@
+Neos:
+  Neos:
+    fusion:
+      autoInclude:
+        DIU.Neos.Content.Slider: true
+    userInterface:
+      defaultLanguage: de
+      translation:
+        autoInclude:
+          'DIU.Neos.Content.Slider':
+            - '**/*'
