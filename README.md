@@ -38,8 +38,8 @@ You will need to include these files into your frontend build:
 ```
 /Public/JavaScript/swiper-bundle.min.js
 /Public/Styles/swiper-bundle.min.css
-/Private/Fusion/Wrapper/Slider.js
-/Private/Fusion/Wrapper/Slider.css 
+/Private/Fusion/Script/Script.js
+/Private/Fusion/Styles/Styles.css 
 ```
 
 Change the color of the navigation arrows in your site package:
@@ -72,7 +72,7 @@ prototype(DIU.Neos.Content.Slider:Wrapper) {
 ```
 prototype(DIU.Neos.Content.Slider:Script) {
     initialize {
-        templatePath = 'resource://My.Package/Private/Fusion/Slider/Slider.js'
+        templatePath = 'resource://My.Package/Private/Fusion/Slider/Script.js'
     }
 }
 ```
