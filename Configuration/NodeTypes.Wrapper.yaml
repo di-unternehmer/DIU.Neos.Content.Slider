@@ -1,4 +1,4 @@
-'DIU.Neos.Content.Slider:Embed':
+'DIU.Neos.Content.Slider:Wrapper':
   superTypes:
     'Neos.Neos:Content': true
     'DIU.Neos.Content.Slider:Slide': true

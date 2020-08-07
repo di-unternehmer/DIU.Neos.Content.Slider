@@ -14,7 +14,7 @@ https://swiperjs.com/
 To restrict the content elements which should be slideable you should overwrite the constraints in you site package like this example.
 
 ```
-'DIU.Neos.Content.Slider:Mixin.Slides':
+'DIU.Neos.Content.Slider:Slide':
   constraints:
     nodeTypes:
       'Neos.Neos:Content': false
@@ -38,7 +38,7 @@ You will need to include these files into your frontend build:
 ```
 /Public/JavaScript/swiper-bundle.min.js
 /Public/Styles/swiper-bundle.min.css
-/Private/Fusion/Embed/Embed.js
+/Private/Fusion/Embed/Wrapper.js
 /Private/Fusion/Embed/Embed.css 
 ```
 
@@ -58,8 +58,8 @@ If you would like to use a different initialization you could overwrite the scri
 For example, you just want to have the dotted navigation:
 
 ```
-prototype(DIU.Neos.Content.Slider:Embed) {
-    renderer = DIU.Neos.Content.Slider:Embed.Presentation {
+prototype(DIU.Neos.Content.Slider:Wrapper) {
+    renderer = DIU.Neos.Content.Slider:Wrapper.Presentation {
         navigation = Neos.Fusion:Tag {
             tagName = 'div'
             attributes.class = 'swiper-pagination'

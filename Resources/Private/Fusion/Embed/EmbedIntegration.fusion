@@ -1,5 +1,0 @@
-prototype(DIU.Neos.Content.Slider:Embed) < prototype(Neos.Neos:ContentComponent) {
-    renderer = DIU.Neos.Content.Slider:Embed.Presentation {
-        slides = ${q(node).children()}
-    }
-}

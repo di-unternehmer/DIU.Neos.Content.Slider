@@ -1,11 +1,11 @@
 prototype(Neos.Neos:Page) {
     sliderStyles = DIU.Neos.Content.Slider:Styles {
         @position = 'before closingHeadTag'
-        @if.shoudLoad = ${q(documentNode).children('[instanceof Neos.Neos:ContentCollection]').find('[instanceof DIU.Neos.Content.Slider:Embed]').get(0)}
+        @if.shoudLoad = ${q(documentNode).children('[instanceof Neos.Neos:ContentCollection]').find('[instanceof DIU.Neos.Content.Slider:Wrapper]').get(0)}
 
     }
     sliderScript = DIU.Neos.Content.Slider:Script {
         @position = 'before closingBodyTag'
-        @if.shoudLoad = ${q(documentNode).children('[instanceof Neos.Neos:ContentCollection]').find('[instanceof DIU.Neos.Content.Slider:Embed]').get(0)}
+        @if.shoudLoad = ${q(documentNode).children('[instanceof Neos.Neos:ContentCollection]').find('[instanceof DIU.Neos.Content.Slider:Wrapper]').get(0)}
     }
 }
