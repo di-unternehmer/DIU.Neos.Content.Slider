@@ -8,7 +8,7 @@ prototype(DIU.Neos.Content.Slider:Script) < prototype(Neos.Fusion:Array) {
         }
     }
     initialize = Neos.Fusion:Template {
-        templatePath = 'resource://DIU.Neos.Content.Slider/Private/Fusion/Script/Slider.js'
+        templatePath = 'resource://DIU.Neos.Content.Slider/Private/Fusion/Script/Script.js'
         @process.wrap = ${'<script>' + value + '</script>'}
     }
 }
