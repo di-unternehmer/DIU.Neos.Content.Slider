@@ -36,10 +36,10 @@ prototype(Neos.Neos:Page) {
 You will need to include these files into your frontend build:
 
 ```
-/Public/JavaScript/swiper-bundle.min.js
-/Public/Styles/swiper-bundle.min.css
-/Private/Fusion/Script/Script.js
-/Private/Fusion/Styles/Styles.css 
+DIU.Neos.Content.Slider/Resources/Public/JavaScript/swiper-bundle.min.js
+DIU.Neos.Content.Slider/Resources/Public/Styles/swiper-bundle.min.css
+DIU.Neos.Content.Slider/Resources/Private/Fusion/Script/Script.js
+DIU.Neos.Content.Slider/Resources/Private/Fusion/Styles/Styles.css 
 ```
 
 Change the color of the navigation arrows in your site package:
