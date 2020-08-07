@@ -8,6 +8,8 @@ https://swiperjs.com/
 
 ![Slider screenshot](Resources/Public/Images/screenshot.jpg)
 
+Image Source: https://www.pexels.com/de-de/foto/arbeit-arbeitsplatz-buro-business-374720/
+
 
 ## Constraints in your site package (example)
 
