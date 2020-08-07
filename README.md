@@ -38,8 +38,8 @@ You will need to include these files into your frontend build:
 ```
 /Public/JavaScript/swiper-bundle.min.js
 /Public/Styles/swiper-bundle.min.css
-/Private/Fusion/Embed/Wrapper.js
-/Private/Fusion/Embed/Embed.css 
+/Private/Fusion/Wrapper/Wrapper.js
+/Private/Fusion/Wrapper/Wrapper.css 
 ```
 
 Change the color of the navigation arrows in your site package:
