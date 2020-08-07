@@ -72,7 +72,7 @@ prototype(DIU.Neos.Content.Slider:Wrapper) {
 ```
 prototype(DIU.Neos.Content.Slider:Script) {
     initialize {
-        templatePath = 'resource://My.Package/Private/Fusion/Slider/Script.js'
+        templatePath = 'resource://My.Package/Private/Fusion/Slider/Slider.js'
     }
 }
 ```
