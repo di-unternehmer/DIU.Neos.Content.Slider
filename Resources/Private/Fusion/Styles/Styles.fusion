@@ -9,7 +9,7 @@ prototype(DIU.Neos.Content.Slider:Styles) < prototype(Neos.Fusion:Array) {
         }
     }
     customStyles = Neos.Fusion:Template {
-        templatePath = 'resource://DIU.Neos.Content.Slider/Private/Fusion/Wrapper/Wrapper.css'
+        templatePath = 'resource://DIU.Neos.Content.Slider/Private/Fusion/Styles/Styles.css'
         @process.wrap = ${'<style>' + value + '</style>'}
     }
 }
