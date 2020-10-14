@@ -5,6 +5,8 @@ This package adds slider functionality to your site. We use Swiper for this pack
                                                      
 https://swiperjs.com/
 
+This package will not be longer maintained. Use this package instead: https://github.com/di-unternehmer/DIU.Neos.Content.Carousel
+
 
 ![Slider screenshot](Resources/Public/Images/screenshot.jpg)
 
