@@ -1,5 +1,5 @@
 {
-    "description": "Make your timeline",
+    "description": "Make your slider",
     "type": "neos-plugin",
     "name": "diu/content-slider",
     "require": {
